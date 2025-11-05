@@ -1,0 +1,9 @@
+# 不上傳這些資料夾
+uploads/
+downloads/
+__pycache__/
+*.pyc
+*.pdf
+*.json
+*.log
+.env
