@@ -105,3 +105,5 @@ if __name__ == '__main__':
     import os
     port = int(os.environ.get('PORT', 10000))  # Render 會自動分配 PORT
     app.run(host='0.0.0.0', port=port)
+    # 如果是在本地跑，就會用預設的port=10000
+    # 在 Render.com 上部署時，Render 會自動設定 PORT 環境變數
